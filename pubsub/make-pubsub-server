@@ -1,0 +1,1 @@
+g++ -std=gnu++0x -o server -g -DDEBUG__MODE -Wall -pthread pubsub-engine.cpp pubsub-server.cpp err.c cvector.cpp
